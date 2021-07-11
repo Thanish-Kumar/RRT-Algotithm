@@ -45,6 +45,14 @@ def main():
 
 if __name__ == '__main__':
      main()
- 
      
+     '''
+     result = False
+     while not result:
+          try:
+               main()
+               result = True
+          except:
+               result = False
+     '''
      
